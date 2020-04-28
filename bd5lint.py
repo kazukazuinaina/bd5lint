@@ -147,8 +147,8 @@ class bd5lint(object):
                                             else:
                                                 #return True
                                                 opt_print("PASS: finsih checking "+j)
-                                        else:
-                                            print("It has 0 Dimension")
+                                    else:
+                                        opt_print("It has 0 Dimension")
                                 else:
                                     print("ERROR: %s not found in objectDef" % j)
                                     return False
