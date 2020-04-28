@@ -16,6 +16,10 @@ optional arguments:
 For example: 
     python3 bd5lint.py -v test/testbd5_dim_3D_t1.h
 
+## Detailed description
+Detailed description can be found on the link below.
+https://docs.google.com/document/d/1x6oTgNifqhn9RXEuFVs2J4ByT_mDJ-Pzp0RLT3cwibw/edit?usp=sharing
+
 ## Test
 
 * Functional Test
