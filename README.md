@@ -1,3 +1,5 @@
+Copyright (C) 2020 RIKEN
+
 ## Synopsis
 * This repository contains the source codes for bd5lint, a tool that analyzes BD5 file format and flag syntactic errors and suspicious constructs.
 
