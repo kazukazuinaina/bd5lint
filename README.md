@@ -22,6 +22,11 @@ For example:
 Detailed description can be found on the link below.
 https://docs.google.com/document/d/1x6oTgNifqhn9RXEuFVs2J4ByT_mDJ-Pzp0RLT3cwibw/edit?usp=sharing
 
+## Reference
+BD5: an open HDF5-based data format to represent quantitative biological dynamics data
+Koji Kyoda, Kenneth H. L. Ho, Yukako Tohsato, Hiroya Itoga, Shuichi Onami
+bioRxiv 2020.04.26.062976; doi: https://doi.org/10.1101/2020.04.26.062976
+
 ## Test
 
 * Functional Test
@@ -40,9 +45,9 @@ https://docs.google.com/document/d/1x6oTgNifqhn9RXEuFVs2J4ByT_mDJ-Pzp0RLT3cwibw/
         "test/testbd5_dim_3D.h5",  
 6. - invalid BD5 file - object entity is a line but it has radius
         "test/testbd5_line_radius.h5",  
-7. invalid BD5 file - it has object1 instead of the correct syntax object
+7. - invalid BD5 file - it has object1 instead of the correct syntax object
         "test/testbd5_object1.h5",  
-8. invalid BD5 file with no objectDef
+8. - invalid BD5 file with no objectDef
         "test/testbd5_objectDef1.h5",  
 9. - invalid BD5 file with dim as 3D, but with inconsistent entity 'line' at ID 1_47.
         "test/testbd5_object_0_1_47_points.h5",  
