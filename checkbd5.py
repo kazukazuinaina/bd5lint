@@ -41,9 +41,10 @@ def checkbd5attribute(datahandle, attribute, typedef):
                 print(errormsg)
                 return False, errormsg 
         elif (typedef == 'hybridfloatstring'):
-            if ((isinstance(datahandle[attribute][0], np.float32)) or 
+            if ((isinstance(datahandle[attribute][0], np.float32) or 
                 isinstance(datahandle[attribute][0], np.float64) or 
-                isinstance(datahandle[attribute][0], np.bytes_))  == True:
+                isinstance(datahandle[attribute][0], np.bytes_) or
+                isinstance(datahandle[attribute][0], np.integer))) == True:
 #                print("checkingfloat      %s, %s" % (attribute, type(datahandle[attribute][0])))
 #                errormsg = 'error: none'
 #                return True, "float"
